@@ -1,0 +1,107 @@
+
+$logo-height: 50px;
+$logo-width: auto;
+
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Your Selected Font', sans-serif;
+}
+
+p {
+    font-family: 'Your Selected Font', sans-serif;
+}
+
+.slider-frontpage{
+    width: 100%;
+    height: 55vh;
+    padding: 5rem 0rem 0rem 0rem;
+    background-color: #ebecf9;
+    h2{
+        color: #171c56;
+        text-transform: uppercase;
+    }
+    p{
+        color: #000000;
+    }
+}
+.card-homefront{
+    width: 100%;
+    height: 50vh;
+    margin: -50px 0px 0px 0px;
+}
+
+.who-arefrontpage{
+    .line-bottomwho{
+        width: 60%;
+        height: 5px;
+        background-color: #000000;
+    }
+    h2{
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 0px 0px 10px 0px;
+    }
+    h4{
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+.suceful-front{
+    width: 100%;
+    height: 25vh;
+    background-color: #ebecf9;
+    margin: 20px 0px 0px 0px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .column {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .number {
+        font-size: 24px;
+        font-weight: bold;
+        color: #007bff;
+    }
+    
+    .text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+footer{
+    background-color: #ebecf9;
+}
+.header-menu-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Align the menu to the right */
+    
+    li{
+        display: inline-block; /* Display menu items in a single line */
+        margin-left: 20px; /* Add spacing between menu items */
+        
+        &:first-child {
+            margin-left: 0; /* Remove margin from the first menu item */
+        }
+        
+        a {
+            padding: 40px 0px 0px 0px;
+            text-decoration: none;
+            color: #333; /* Customize the link color */
+            
+            &:hover {
+                color: #007bff; /* Customize the link color on hover */
+            }
+        }
+    }
+}
+
